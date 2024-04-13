@@ -1,1 +1,2 @@
 Adrian;Rzeszutek;Java;Junior
+Krzysztof;Połeć;Grafik;Mid
