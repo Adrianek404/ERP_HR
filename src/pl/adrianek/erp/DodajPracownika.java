@@ -11,7 +11,7 @@ import java.io.IOException;
 public class DodajPracownika extends JFrame implements ActionListener {
 
     JTextField Imie, Nazwisko, Umiejetnosci, Doswiadczenie;
-    JButton dodaj;
+    JButton dodaj, powrot;
 
     DodajPracownika(){
         setTitle("Dodaj pracownika");
@@ -64,18 +64,27 @@ public class DodajPracownika extends JFrame implements ActionListener {
         add(Doswiadczenie);
 
         dodaj = new JButton("Dodaj");
-        dodaj.setBounds(230, 250, 120, 30);
+        dodaj.setBounds(150, 250, 120, 30);
         dodaj.setBorderPainted(false);
         dodaj.setOpaque(true);
         dodaj.setBackground(Color.BLACK);
         dodaj.setForeground(Color.WHITE);
         dodaj.addActionListener(this);
         add(dodaj);
+
+        powrot = new JButton("Powrót");
+        powrot.setBounds(280, 250, 120, 30);
+        powrot.setBorderPainted(false);
+        powrot.setOpaque(true);
+        powrot.setBackground(Color.BLACK);
+        powrot.setForeground(Color.WHITE);
+        powrot.addActionListener(this);
+        add(powrot);
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == dodaj) {
+        if (e.getSource().equals(dodaj)) {
             String imie = Imie.getText();
             String nazwisko = Nazwisko.getText();
             String umiejetnosci = Umiejetnosci.getText();
@@ -88,6 +97,10 @@ public class DodajPracownika extends JFrame implements ActionListener {
             } else {
                 JOptionPane.showMessageDialog(this, "Wypełnij wszystkie pola", "Błąd", JOptionPane.ERROR_MESSAGE);
             }
+        }
+        if (e.getSource().equals(powrot)){
+            setVisible(false);
+            new Pracownicy().setVisible(true);
         }
     }
 

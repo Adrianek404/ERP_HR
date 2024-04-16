@@ -74,6 +74,10 @@ public class Pracownicy extends JFrame {
             }
         });
         JButton urlopButton = new JButton("Urlop");
+        urlopButton.addActionListener(e -> {
+            this.setVisible(false);
+            new DodajUrlop(imie, nazwisko);
+        });
 
         pracownikPanel.add(usunButton);
         pracownikPanel.add(urlopButton);
