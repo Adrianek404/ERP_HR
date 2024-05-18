@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 
 public class Main extends JFrame implements ActionListener {
 
-    JButton HrModule;
+    JButton HrModule, UserModule, ProjectManagerModule;
     Main(){
         setTitle("HRAPP");
 
@@ -22,6 +22,24 @@ public class Main extends JFrame implements ActionListener {
         HrModule.setForeground(Color.WHITE);
         HrModule.addActionListener(this);
         add(HrModule);
+
+        UserModule = new JButton("UserModule");
+        UserModule.setBounds(100, 150, 120, 30);
+        UserModule.setBorderPainted(false);
+        UserModule.setOpaque(true);
+        UserModule.setBackground(Color.BLACK);
+        UserModule.setForeground(Color.WHITE);
+        UserModule.addActionListener(this);
+        add(UserModule);
+
+        ProjectManagerModule = new JButton("ProjectManagerModule");
+        ProjectManagerModule.setBounds(360, 150, 140, 30);
+        ProjectManagerModule.setBorderPainted(false);
+        ProjectManagerModule.setOpaque(true);
+        ProjectManagerModule.setBackground(Color.BLACK);
+        ProjectManagerModule.setForeground(Color.WHITE);
+        ProjectManagerModule.addActionListener(this);
+        add(ProjectManagerModule);
 
         getContentPane().setBackground(Color.WHITE);
 
@@ -39,6 +57,14 @@ public class Main extends JFrame implements ActionListener {
         if (e.getSource().equals(HrModule)){
             setVisible(false);
             new Pracownicy().setVisible(true);
+        }
+        if (e.getSource().equals(UserModule)){
+            setVisible(false);
+            new Zadania().setVisible(true);
+        }
+        if (e.getSource().equals(ProjectManagerModule)){
+            setVisible(false);
+            new ProjectManager().setVisible(true);
         }
     }
 }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec0f0d0a-8dc5-481c-93d6-7cc750fb6346" name="Changes" comment="Dodawanie pracownikow">
-      <change afterPath="$PROJECT_DIR$/urlopy.txt" afterDir="false" />
+    <list default="true" id="ec0f0d0a-8dc5-481c-93d6-7cc750fb6346" name="Changes" comment="Dodawanie urlopów">
+      <change afterPath="$PROJECT_DIR$/src/pl/adrianek/erp/DodajZadanie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/adrianek/erp/ProjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/adrianek/erp/Zadania.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ERP_HR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ERP_HR.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/adrianek/erp/DodajPracownika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/adrianek/erp/DodajPracownika.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/adrianek/erp/DodajUrlop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/adrianek/erp/DodajUrlop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/adrianek/erp/Pracownicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/adrianek/erp/Pracownicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/adrianek/erp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/adrianek/erp/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.adrianek.erp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\QuerekPL\IdeaProjects\ERP_HR" />
       <recent name="C:\Users\QuerekPL\IdeaProjects\ERP_HR\src" />
@@ -82,7 +85,8 @@
       <workItem from="1712917743120" duration="12206000" />
       <workItem from="1713002431479" duration="4711000" />
       <workItem from="1713184385907" duration="3330000" />
-      <workItem from="1713257610763" duration="2589000" />
+      <workItem from="1713257610763" duration="4962000" />
+      <workItem from="1716040962298" duration="3491000" />
     </task>
     <task id="LOCAL-00001" summary="Dodawanie pracownikow">
       <created>1713039373018</created>
@@ -91,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713039373018</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dodawanie urlopów">
+      <created>1713262272638</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713262272638</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dodawanie pracownikow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodawanie pracownikow" />
+    <MESSAGE value="Dodawanie urlopów" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodawanie urlopów" />
   </component>
 </project>
