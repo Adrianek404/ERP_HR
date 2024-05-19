@@ -60,7 +60,7 @@ public class Main extends JFrame implements ActionListener {
         }
         if (e.getSource().equals(UserModule)){
             setVisible(false);
-            new Zadania().setVisible(true);
+            new LoginUser().setVisible(true);
         }
         if (e.getSource().equals(ProjectManagerModule)){
             setVisible(false);

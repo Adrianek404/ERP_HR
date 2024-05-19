@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec0f0d0a-8dc5-481c-93d6-7cc750fb6346" name="Changes" comment="Dodawanie urlopów">
-      <change afterPath="$PROJECT_DIR$/src/pl/adrianek/erp/DodajZadanie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/adrianek/erp/ProjectManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/adrianek/erp/Zadania.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/adrianek/erp/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/adrianek/erp/UserSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/adrianek/erp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/adrianek/erp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania.txt" beforeDir="false" afterPath="$PROJECT_DIR$/zadania.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +86,7 @@
       <workItem from="1713184385907" duration="3330000" />
       <workItem from="1713257610763" duration="4962000" />
       <workItem from="1716040962298" duration="3491000" />
+      <workItem from="1716104029887" duration="4515000" />
     </task>
     <task id="LOCAL-00001" summary="Dodawanie pracownikow">
       <created>1713039373018</created>
